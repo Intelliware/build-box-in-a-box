@@ -1,0 +1,4 @@
+jenkins_data/
+sonarqube-data/
+sonarqube-data/*
+sonarqube-postgres-data/
