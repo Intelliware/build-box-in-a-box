@@ -8,3 +8,4 @@ ADD waitForJenkins.sh /tmp/waitForJenkins.sh
 ADD createJob.sh /tmp/createJob.sh
 USER root
 RUN chmod +x /tmp/createJob.sh
+RUN chmod +x /tmp/waitForJenkins.sh

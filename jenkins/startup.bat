@@ -1,10 +1,8 @@
 start startJenkins.bat
 timeout 10
 
-docker exec test /tmp/waitForJenkins.sh
+call configureJenkins.bat
 
-configureJenkins.bat
+timeout 30
 
-docker exec test /tmp/waitForJenkins.sh
-
-createJob.bat
+call createJob.bat
