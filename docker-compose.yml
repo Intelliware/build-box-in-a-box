@@ -50,6 +50,6 @@ services:
       - build-box-in-a-box
     ports:
       - "8080:8080"
-      - "50000:5000"
+      - "50000:50000"
     volumes:
       - ./jenkins_data/:/var/jenkins_home
